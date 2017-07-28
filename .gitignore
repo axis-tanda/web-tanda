@@ -13,6 +13,7 @@ coverage/
 
 # Environment files
 .env
+.vscode/*
 
 # nyc folder
 .nyc_output/
