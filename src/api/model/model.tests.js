@@ -11,12 +11,5 @@ function todo() {
   expect(true, 'method not yet implemented');
 }
 
-describe('Clockin', () => {
-  it('should get all the users', (done) => {
-    todo()
-  });
-
-  it('should get a user by id', (done) => {
-    todo()
-  });
+describe('Model', () => {
 });
