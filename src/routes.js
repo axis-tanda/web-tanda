@@ -4,7 +4,6 @@ import { red, green, blue } from 'chalk';
 const log = debug('app-routes');
 
 // Routes
-const userRoutes = require('./api/user/user.routes').default;
 const clockinRoutes = require('./api/clockin/clockin.routes').default;
 
 export default (app) => {
