@@ -1,0 +1,140 @@
+{
+  "name": "Tanda Office",
+  "rooms": [
+    {
+      "room_id": 1,
+      "room_name": "Meeting Room #1"
+    },
+    {
+      "room_id": 2,
+      "room_name": "Meeting Room #2"
+    },
+    {
+      "room_id": 3,
+      "room_name": "Meeting Room #3"
+    }
+  ],
+  "users": [
+    {
+        "id": 376625,
+        "name": "Gio Peralta",
+        "date_of_birth": null,
+        "employment_start_date": "2017-07-28",
+        "employee_id": "2",
+        "passcode": "9263",
+        "user_levels": [
+            "employee"
+        ],
+        "department_ids": [],
+        "preferred_hours": 0,
+        "award_template_id": null,
+        "award_tag_ids": [],
+        "report_department_id": null,
+        "managed_department_ids": [],
+        "active": true,
+        "email": "gbperala1@up.edu.ph",
+        "photo": null,
+        "phone": "+639152533334",
+        "normalised_phone": "+639152533334",
+        "time_zone": "Asia/Shanghai",
+        "utc_offset": 28800,
+        "created_at": 1501249990,
+        "employment_basis": null,
+        "super_fund_membership": null,
+        "bank_details": null,
+        "tax_declaration": null,
+        "updated_at": 1501250118
+    },
+    {
+        "id": 376298,
+        "name": "Jan Charles Maghirang Adona",
+        "date_of_birth": null,
+        "employment_start_date": null,
+        "employee_id": "1",
+        "passcode": "1234",
+        "user_levels": [
+            "employee",
+            "organisation_admin"
+        ],
+        "department_ids": [],
+        "preferred_hours": 0,
+        "award_template_id": null,
+        "award_tag_ids": [],
+        "report_department_id": null,
+        "managed_department_ids": [],
+        "active": true,
+        "email": "jancharles.adona@gmail.com",
+        "photo": null,
+        "phone": "+639054768718",
+        "normalised_phone": "+639054768718",
+        "time_zone": "Asia/Shanghai",
+        "utc_offset": 28800,
+        "created_at": 1501233063,
+        "employment_basis": null,
+        "super_fund_membership": null,
+        "bank_details": null,
+        "tax_declaration": null,
+        "updated_at": 1501233063
+    },
+    {
+        "id": 376653,
+        "name": "Kean Paderes",
+        "date_of_birth": null,
+        "employment_start_date": "2017-07-28",
+        "employee_id": "4",
+        "passcode": "9335",
+        "user_levels": [
+            "employee"
+        ],
+        "department_ids": [],
+        "preferred_hours": 0,
+        "award_template_id": null,
+        "award_tag_ids": [],
+        "report_department_id": null,
+        "managed_department_ids": [],
+        "active": true,
+        "email": null,
+        "photo": null,
+        "phone": null,
+        "normalised_phone": null,
+        "time_zone": "Asia/Shanghai",
+        "utc_offset": 28800,
+        "created_at": 1501250899,
+        "employment_basis": null,
+        "super_fund_membership": null,
+        "bank_details": null,
+        "tax_declaration": null,
+        "updated_at": 1501250899
+    },
+    {
+        "id": 376629,
+        "name": "Rain Tomista",
+        "date_of_birth": null,
+        "employment_start_date": "2017-07-28",
+        "employee_id": "3",
+        "passcode": "7970",
+        "user_levels": [
+            "employee"
+        ],
+        "department_ids": [],
+        "preferred_hours": 0,
+        "award_template_id": null,
+        "award_tag_ids": [],
+        "report_department_id": null,
+        "managed_department_ids": [],
+        "active": true,
+        "email": null,
+        "photo": null,
+        "phone": null,
+        "normalised_phone": null,
+        "time_zone": "Asia/Shanghai",
+        "utc_offset": 28800,
+        "created_at": 1501250684,
+        "employment_basis": null,
+        "super_fund_membership": null,
+        "bank_details": null,
+        "tax_declaration": null,
+        "updated_at": 1501250684
+    }
+  ]
+}
