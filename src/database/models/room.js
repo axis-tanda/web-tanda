@@ -5,3 +5,5 @@ const roomSchema = mongoose.Schema({
   room_name: { type: String},
   data: { type: Object[]}
 });
+
+export default mongoose.model('Room', roomSchema);

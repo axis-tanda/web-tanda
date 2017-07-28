@@ -30,3 +30,5 @@ const userSchema = mongoose.Schema({
 	tax_declaration: {type: String},
 	updated_at: {type: Number}
 });
+
+export default mongoose.model('User', userSchema);

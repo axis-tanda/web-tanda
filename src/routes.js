@@ -7,6 +7,8 @@ const log = debug('app-routes');
 const clockinRoutes = require('./api/clockin/clockin.routes').default;
 const modelRoutes = require('./api/model/model.routes').default;
 const roomRoutes = require('./api/room/room.routes').default;
+const meetingRoutes = require('./api/meeting/meeting.routes').default;
+
 
 export default (app) => {
   // logger
@@ -19,4 +21,5 @@ export default (app) => {
   app.use('/api/tanda/clockin', clockinRoutes);
   app.use('/api/tanda/model', modelRoutes);
   app.use('/api/tanda/room', roomRoutes);
+  app.use('/api/tanda/meeting', meetingRoutes);
 };
