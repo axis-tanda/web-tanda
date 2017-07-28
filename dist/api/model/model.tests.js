@@ -23,13 +23,5 @@ function todo() {
   expect(true, 'method not yet implemented');
 }
 
-describe('Clockin', function () {
-  it('should get all the users', function (done) {
-    todo();
-  });
-
-  it('should get a user by id', function (done) {
-    todo();
-  });
-});
-//# sourceMappingURL=clockin.tests.js.map
+describe('Model', function () {});
+//# sourceMappingURL=model.tests.js.map

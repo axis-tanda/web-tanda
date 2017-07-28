@@ -1,140 +1,1041 @@
 {
-  "name": "Tanda Office",
-  "rooms": [
-    {
-      "room_id": 1,
-      "room_name": "Meeting Room #1"
-    },
-    {
-      "room_id": 2,
-      "room_name": "Meeting Room #2"
-    },
-    {
-      "room_id": 3,
-      "room_name": "Meeting Room #3"
-    }
-  ],
-  "users": [
-    {
-        "id": 376625,
-        "name": "Gio Peralta",
-        "date_of_birth": null,
-        "employment_start_date": "2017-07-28",
-        "employee_id": "2",
-        "passcode": "9263",
-        "user_levels": [
-            "employee"
-        ],
-        "department_ids": [],
-        "preferred_hours": 0,
-        "award_template_id": null,
-        "award_tag_ids": [],
-        "report_department_id": null,
-        "managed_department_ids": [],
-        "active": true,
-        "email": "gbperala1@up.edu.ph",
-        "photo": null,
-        "phone": "+639152533334",
-        "normalised_phone": "+639152533334",
-        "time_zone": "Asia/Shanghai",
-        "utc_offset": 28800,
-        "created_at": 1501249990,
-        "employment_basis": null,
-        "super_fund_membership": null,
-        "bank_details": null,
-        "tax_declaration": null,
-        "updated_at": 1501250118
-    },
-    {
-        "id": 376298,
-        "name": "Jan Charles Maghirang Adona",
-        "date_of_birth": null,
-        "employment_start_date": null,
-        "employee_id": "1",
-        "passcode": "1234",
-        "user_levels": [
-            "employee",
-            "organisation_admin"
-        ],
-        "department_ids": [],
-        "preferred_hours": 0,
-        "award_template_id": null,
-        "award_tag_ids": [],
-        "report_department_id": null,
-        "managed_department_ids": [],
-        "active": true,
-        "email": "jancharles.adona@gmail.com",
-        "photo": null,
-        "phone": "+639054768718",
-        "normalised_phone": "+639054768718",
-        "time_zone": "Asia/Shanghai",
-        "utc_offset": 28800,
-        "created_at": 1501233063,
-        "employment_basis": null,
-        "super_fund_membership": null,
-        "bank_details": null,
-        "tax_declaration": null,
-        "updated_at": 1501233063
-    },
-    {
-        "id": 376653,
-        "name": "Kean Paderes",
-        "date_of_birth": null,
-        "employment_start_date": "2017-07-28",
-        "employee_id": "4",
-        "passcode": "9335",
-        "user_levels": [
-            "employee"
-        ],
-        "department_ids": [],
-        "preferred_hours": 0,
-        "award_template_id": null,
-        "award_tag_ids": [],
-        "report_department_id": null,
-        "managed_department_ids": [],
-        "active": true,
-        "email": null,
-        "photo": null,
-        "phone": null,
-        "normalised_phone": null,
-        "time_zone": "Asia/Shanghai",
-        "utc_offset": 28800,
-        "created_at": 1501250899,
-        "employment_basis": null,
-        "super_fund_membership": null,
-        "bank_details": null,
-        "tax_declaration": null,
-        "updated_at": 1501250899
-    },
-    {
-        "id": 376629,
-        "name": "Rain Tomista",
-        "date_of_birth": null,
-        "employment_start_date": "2017-07-28",
-        "employee_id": "3",
-        "passcode": "7970",
-        "user_levels": [
-            "employee"
-        ],
-        "department_ids": [],
-        "preferred_hours": 0,
-        "award_template_id": null,
-        "award_tag_ids": [],
-        "report_department_id": null,
-        "managed_department_ids": [],
-        "active": true,
-        "email": null,
-        "photo": null,
-        "phone": null,
-        "normalised_phone": null,
-        "time_zone": "Asia/Shanghai",
-        "utc_offset": 28800,
-        "created_at": 1501250684,
-        "employment_basis": null,
-        "super_fund_membership": null,
-        "bank_details": null,
-        "tax_declaration": null,
-        "updated_at": 1501250684
-    }
-  ]
+	"name": "Tanda Office",
+	"rooms": [{
+			"room_id": 1,
+			"room_name": "Meeting Room #1",
+			"data": [{
+					"day": "Monday",
+					"time": "07:00",
+					"person_count": 6
+				},
+				{
+					"day": "Monday",
+					"time": "08:00",
+					"person_count": 2
+				},
+				{
+					"day": "Monday",
+					"time": "09:00",
+					"person_count": 1
+				},
+				{
+					"day": "Monday",
+					"time": "10:00",
+					"person_count": 0
+				},
+				{
+					"day": "Monday",
+					"time": "11:00",
+					"person_count": 0
+				},
+				{
+					"day": "Monday",
+					"time": "12:00",
+					"person_count": 3
+				},
+				{
+					"day": "Monday",
+					"time": "13:00",
+					"person_count": 2
+				},
+				{
+					"day": "Monday",
+					"time": "14:00",
+					"person_count": 0
+				},
+				{
+					"day": "Monday",
+					"time": "15:00",
+					"person_count": 6
+				},
+				{
+					"day": "Monday",
+					"time": "16:00",
+					"person_count": 2
+				},
+				{
+					"day": "Monday",
+					"time": "17:00",
+					"person_count": 5
+				},
+				{
+					"day": "Monday",
+					"time": "18:00",
+					"person_count": 9
+				},
+				{
+					"day": "Tuesday",
+					"time": "07:00",
+					"person_count": 6
+				},
+				{
+					"day": "Tuesday",
+					"time": "08:00",
+					"person_count": 2
+				},
+				{
+					"day": "Tuesday",
+					"time": "09:00",
+					"person_count": 1
+				},
+				{
+					"day": "Tuesday",
+					"time": "10:00",
+					"person_count": 0
+				},
+				{
+					"day": "Tuesday",
+					"time": "11:00",
+					"person_count": 6
+				},
+				{
+					"day": "Tuesday",
+					"time": "12:00",
+					"person_count": 2
+				},
+				{
+					"day": "Tuesday",
+					"time": "13:00",
+					"person_count": 1
+				},
+				{
+					"day": "Tuesday",
+					"time": "14:00",
+					"person_count": 0
+				},
+				{
+					"day": "Tuesday",
+					"time": "15:00",
+					"person_count": 6
+				},
+				{
+					"day": "Tuesday",
+					"time": "16:00",
+					"person_count": 2
+				},
+				{
+					"day": "Tuesday",
+					"time": "17:00",
+					"person_count": 1
+				},
+				{
+					"day": "Tuesday",
+					"time": "18:00",
+					"person_count": 0
+				},
+				{
+					"day": "Wednesday",
+					"time": "07:00",
+					"person_count": 6
+				},
+				{
+					"day": "Wednesday",
+					"time": "08:00",
+					"person_count": 2
+				},
+				{
+					"day": "Wednesday",
+					"time": "09:00",
+					"person_count": 1
+				},
+				{
+					"day": "Wednesday",
+					"time": "10:00",
+					"person_count": 0
+				},
+				{
+					"day": "Wednesday",
+					"time": "11:00",
+					"person_count": 6
+				},
+				{
+					"day": "Wednesday",
+					"time": "12:00",
+					"person_count": 2
+				},
+				{
+					"day": "Wednesday",
+					"time": "13:00",
+					"person_count": 1
+				},
+				{
+					"day": "Wednesday",
+					"time": "14:00",
+					"person_count": 0
+				},
+				{
+					"day": "Wednesday",
+					"time": "15:00",
+					"person_count": 6
+				},
+				{
+					"day": "Wednesday",
+					"time": "16:00",
+					"person_count": 2
+				},
+				{
+					"day": "Wednesday",
+					"time": "17:00",
+					"person_count": 1
+				},
+				{
+					"day": "Wednesday",
+					"time": "18:00",
+					"person_count": 0
+				},
+				{
+					"day": "Thursday",
+					"time": "07:00",
+					"person_count": 6
+				},
+				{
+					"day": "Thursday",
+					"time": "08:00",
+					"person_count": 2
+				},
+				{
+					"day": "Thursday",
+					"time": "09:00",
+					"person_count": 1
+				},
+				{
+					"day": "Thursday",
+					"time": "10:00",
+					"person_count": 0
+				},
+				{
+					"day": "Thursday",
+					"time": "11:00",
+					"person_count": 6
+				},
+				{
+					"day": "Thursday",
+					"time": "12:00",
+					"person_count": 2
+				},
+				{
+					"day": "Thursday",
+					"time": "13:00",
+					"person_count": 1
+				},
+				{
+					"day": "Thursday",
+					"time": "14:00",
+					"person_count": 0
+				},
+				{
+					"day": "Thursday",
+					"time": "15:00",
+					"person_count": 6
+				},
+				{
+					"day": "Thursday",
+					"time": "16:00",
+					"person_count": 2
+				},
+				{
+					"day": "Thursday",
+					"time": "17:00",
+					"person_count": 1
+				},
+				{
+					"day": "Thursday",
+					"time": "18:00",
+					"person_count": 0
+				},
+				{
+					"day": "Friday",
+					"time": "07:00",
+					"person_count": 6
+				},
+				{
+					"day": "Friday",
+					"time": "08:00",
+					"person_count": 2
+				},
+				{
+					"day": "Friday",
+					"time": "09:00",
+					"person_count": 1
+				},
+				{
+					"day": "Friday",
+					"time": "10:00",
+					"person_count": 0
+				},
+				{
+					"day": "Friday",
+					"time": "11:00",
+					"person_count": 6
+				},
+				{
+					"day": "Friday",
+					"time": "12:00",
+					"person_count": 2
+				},
+				{
+					"day": "Friday",
+					"time": "13:00",
+					"person_count": 1
+				},
+				{
+					"day": "Friday",
+					"time": "14:00",
+					"person_count": 0
+				},
+				{
+					"day": "Friday",
+					"time": "15:00",
+					"person_count": 6
+				},
+				{
+					"day": "Friday",
+					"time": "16:00",
+					"person_count": 2
+				},
+				{
+					"day": "Friday",
+					"time": "17:00",
+					"person_count": 1
+				},
+				{
+					"day": "Friday",
+					"time": "18:00",
+					"person_count": 0
+				}
+			]
+		},
+		{
+			"room_id": 2,
+			"room_name": "Meeting Room #2",
+			"data": [{
+					"day": "Monday",
+					"time": "07:00",
+					"person_count": 6
+				},
+				{
+					"day": "Monday",
+					"time": "08:00",
+					"person_count": 2
+				},
+				{
+					"day": "Monday",
+					"time": "09:00",
+					"person_count": 1
+				},
+				{
+					"day": "Monday",
+					"time": "10:00",
+					"person_count": 0
+				},
+				{
+					"day": "Monday",
+					"time": "11:00",
+					"person_count": 6
+				},
+				{
+					"day": "Monday",
+					"time": "12:00",
+					"person_count": 2
+				},
+				{
+					"day": "Monday",
+					"time": "13:00",
+					"person_count": 1
+				},
+				{
+					"day": "Monday",
+					"time": "14:00",
+					"person_count": 0
+				},
+				{
+					"day": "Monday",
+					"time": "15:00",
+					"person_count": 6
+				},
+				{
+					"day": "Monday",
+					"time": "16:00",
+					"person_count": 2
+				},
+				{
+					"day": "Monday",
+					"time": "17:00",
+					"person_count": 1
+				},
+				{
+					"day": "Monday",
+					"time": "18:00",
+					"person_count": 0
+				},
+				{
+					"day": "Tuesday",
+					"time": "07:00",
+					"person_count": 5
+				},
+				{
+					"day": "Tuesday",
+					"time": "08:00",
+					"person_count": 2
+				},
+				{
+					"day": "Tuesday",
+					"time": "09:00",
+					"person_count": 3
+				},
+				{
+					"day": "Tuesday",
+					"time": "10:00",
+					"person_count": 5
+				},
+				{
+					"day": "Tuesday",
+					"time": "11:00",
+					"person_count": 6
+				},
+				{
+					"day": "Tuesday",
+					"time": "12:00",
+					"person_count": 1
+				},
+				{
+					"day": "Tuesday",
+					"time": "13:00",
+					"person_count": 6
+				},
+				{
+					"day": "Tuesday",
+					"time": "14:00",
+					"person_count": 8
+				},
+				{
+					"day": "Tuesday",
+					"time": "15:00",
+					"person_count": 1
+				},
+				{
+					"day": "Tuesday",
+					"time": "16:00",
+					"person_count": 8
+				},
+				{
+					"day": "Tuesday",
+					"time": "17:00",
+					"person_count": 9
+				},
+				{
+					"day": "Tuesday",
+					"time": "18:00",
+					"person_count": 10
+				},
+				{
+					"day": "Wednesday",
+					"time": "07:00",
+					"person_count": 6
+				},
+				{
+					"day": "Wednesday",
+					"time": "08:00",
+					"person_count": 2
+				},
+				{
+					"day": "Wednesday",
+					"time": "09:00",
+					"person_count": 1
+				},
+				{
+					"day": "Wednesday",
+					"time": "10:00",
+					"person_count": 0
+				},
+				{
+					"day": "Wednesday",
+					"time": "11:00",
+					"person_count": 6
+				},
+				{
+					"day": "Wednesday",
+					"time": "12:00",
+					"person_count": 2
+				},
+				{
+					"day": "Wednesday",
+					"time": "13:00",
+					"person_count": 1
+				},
+				{
+					"day": "Wednesday",
+					"time": "14:00",
+					"person_count": 0
+				},
+				{
+					"day": "Wednesday",
+					"time": "15:00",
+					"person_count": 6
+				},
+				{
+					"day": "Wednesday",
+					"time": "16:00",
+					"person_count": 2
+				},
+				{
+					"day": "Wednesday",
+					"time": "17:00",
+					"person_count": 1
+				},
+				{
+					"day": "Wednesday",
+					"time": "18:00",
+					"person_count": 0
+				},
+				{
+					"day": "Thursday",
+					"time": "07:00",
+					"person_count": 6
+				},
+				{
+					"day": "Thursday",
+					"time": "08:00",
+					"person_count": 2
+				},
+				{
+					"day": "Thursday",
+					"time": "09:00",
+					"person_count": 1
+				},
+				{
+					"day": "Thursday",
+					"time": "10:00",
+					"person_count": 0
+				},
+				{
+					"day": "Thursday",
+					"time": "11:00",
+					"person_count": 6
+				},
+				{
+					"day": "Thursday",
+					"time": "12:00",
+					"person_count": 2
+				},
+				{
+					"day": "Thursday",
+					"time": "13:00",
+					"person_count": 1
+				},
+				{
+					"day": "Thursday",
+					"time": "14:00",
+					"person_count": 0
+				},
+				{
+					"day": "Thursday",
+					"time": "15:00",
+					"person_count": 6
+				},
+				{
+					"day": "Thursday",
+					"time": "16:00",
+					"person_count": 2
+				},
+				{
+					"day": "Thursday",
+					"time": "17:00",
+					"person_count": 1
+				},
+				{
+					"day": "Thursday",
+					"time": "18:00",
+					"person_count": 0
+				},
+				{
+					"day": "Friday",
+					"time": "07:00",
+					"person_count": 6
+				},
+				{
+					"day": "Friday",
+					"time": "08:00",
+					"person_count": 2
+				},
+				{
+					"day": "Friday",
+					"time": "09:00",
+					"person_count": 1
+				},
+				{
+					"day": "Friday",
+					"time": "10:00",
+					"person_count": 0
+				},
+				{
+					"day": "Friday",
+					"time": "11:00",
+					"person_count": 6
+				},
+				{
+					"day": "Friday",
+					"time": "12:00",
+					"person_count": 2
+				},
+				{
+					"day": "Friday",
+					"time": "13:00",
+					"person_count": 1
+				},
+				{
+					"day": "Friday",
+					"time": "14:00",
+					"person_count": 0
+				},
+				{
+					"day": "Friday",
+					"time": "15:00",
+					"person_count": 6
+				},
+				{
+					"day": "Friday",
+					"time": "16:00",
+					"person_count": 2
+				},
+				{
+					"day": "Friday",
+					"time": "17:00",
+					"person_count": 1
+				},
+				{
+					"day": "Friday",
+					"time": "18:00",
+					"person_count": 0
+				}
+			]
+		},
+		{
+			"room_id": 3,
+			"room_name": "Meeting Room #3",
+			"data": [{
+					"day": "Monday",
+					"time": "07:00",
+					"person_count": 6
+				},
+				{
+					"day": "Monday",
+					"time": "08:00",
+					"person_count": 2
+				},
+				{
+					"day": "Monday",
+					"time": "09:00",
+					"person_count": 1
+				},
+				{
+					"day": "Monday",
+					"time": "10:00",
+					"person_count": 0
+				},
+				{
+					"day": "Monday",
+					"time": "11:00",
+					"person_count": 6
+				},
+				{
+					"day": "Monday",
+					"time": "12:00",
+					"person_count": 2
+				},
+				{
+					"day": "Monday",
+					"time": "13:00",
+					"person_count": 1
+				},
+				{
+					"day": "Monday",
+					"time": "14:00",
+					"person_count": 0
+				},
+				{
+					"day": "Monday",
+					"time": "15:00",
+					"person_count": 6
+				},
+				{
+					"day": "Monday",
+					"time": "16:00",
+					"person_count": 2
+				},
+				{
+					"day": "Monday",
+					"time": "17:00",
+					"person_count": 1
+				},
+				{
+					"day": "Monday",
+					"time": "18:00",
+					"person_count": 0
+				},
+				{
+					"day": "Tuesday",
+					"time": "07:00",
+					"person_count": 2
+				},
+				{
+					"day": "Tuesday",
+					"time": "08:00",
+					"person_count": 4
+				},
+				{
+					"day": "Tuesday",
+					"time": "09:00",
+					"person_count": 7
+				},
+				{
+					"day": "Tuesday",
+					"time": "10:00",
+					"person_count": 1
+				},
+				{
+					"day": "Tuesday",
+					"time": "11:00",
+					"person_count": 9
+				},
+				{
+					"day": "Tuesday",
+					"time": "12:00",
+					"person_count": 2
+				},
+				{
+					"day": "Tuesday",
+					"time": "13:00",
+					"person_count": 7
+				},
+				{
+					"day": "Tuesday",
+					"time": "14:00",
+					"person_count": 9
+				},
+				{
+					"day": "Tuesday",
+					"time": "15:00",
+					"person_count": 1
+				},
+				{
+					"day": "Tuesday",
+					"time": "16:00",
+					"person_count": 3
+				},
+				{
+					"day": "Tuesday",
+					"time": "17:00",
+					"person_count": 4
+				},
+				{
+					"day": "Tuesday",
+					"time": "18:00",
+					"person_count": 5
+				},
+				{
+					"day": "Wednesday",
+					"time": "07:00",
+					"person_count": 8
+				},
+				{
+					"day": "Wednesday",
+					"time": "08:00",
+					"person_count": 2
+				},
+				{
+					"day": "Wednesday",
+					"time": "09:00",
+					"person_count": 1
+				},
+				{
+					"day": "Wednesday",
+					"time": "10:00",
+					"person_count": 0
+				},
+				{
+					"day": "Wednesday",
+					"time": "11:00",
+					"person_count": 6
+				},
+				{
+					"day": "Wednesday",
+					"time": "12:00",
+					"person_count": 2
+				},
+				{
+					"day": "Wednesday",
+					"time": "13:00",
+					"person_count": 1
+				},
+				{
+					"day": "Wednesday",
+					"time": "14:00",
+					"person_count": 0
+				},
+				{
+					"day": "Wednesday",
+					"time": "15:00",
+					"person_count": 6
+				},
+				{
+					"day": "Wednesday",
+					"time": "16:00",
+					"person_count": 2
+				},
+				{
+					"day": "Wednesday",
+					"time": "17:00",
+					"person_count": 1
+				},
+				{
+					"day": "Wednesday",
+					"time": "18:00",
+					"person_count": 0
+				},
+				{
+					"day": "Thursday",
+					"time": "07:00",
+					"person_count": 6
+				},
+				{
+					"day": "Thursday",
+					"time": "08:00",
+					"person_count": 2
+				},
+				{
+					"day": "Thursday",
+					"time": "09:00",
+					"person_count": 1
+				},
+				{
+					"day": "Thursday",
+					"time": "10:00",
+					"person_count": 0
+				},
+				{
+					"day": "Thursday",
+					"time": "11:00",
+					"person_count": 6
+				},
+				{
+					"day": "Thursday",
+					"time": "12:00",
+					"person_count": 2
+				},
+				{
+					"day": "Thursday",
+					"time": "13:00",
+					"person_count": 1
+				},
+				{
+					"day": "Thursday",
+					"time": "14:00",
+					"person_count": 0
+				},
+				{
+					"day": "Thursday",
+					"time": "15:00",
+					"person_count": 6
+				},
+				{
+					"day": "Thursday",
+					"time": "16:00",
+					"person_count": 2
+				},
+				{
+					"day": "Thursday",
+					"time": "17:00",
+					"person_count": 1
+				},
+				{
+					"day": "Thursday",
+					"time": "18:00",
+					"person_count": 0
+				},
+				{
+					"day": "Friday",
+					"time": "07:00",
+					"person_count": 6
+				},
+				{
+					"day": "Friday",
+					"time": "08:00",
+					"person_count": 2
+				},
+				{
+					"day": "Friday",
+					"time": "09:00",
+					"person_count": 1
+				},
+				{
+					"day": "Friday",
+					"time": "10:00",
+					"person_count": 0
+				},
+				{
+					"day": "Friday",
+					"time": "11:00",
+					"person_count": 6
+				},
+				{
+					"day": "Friday",
+					"time": "12:00",
+					"person_count": 2
+				},
+				{
+					"day": "Friday",
+					"time": "13:00",
+					"person_count": 1
+				},
+				{
+					"day": "Friday",
+					"time": "14:00",
+					"person_count": 0
+				},
+				{
+					"day": "Friday",
+					"time": "15:00",
+					"person_count": 6
+				},
+				{
+					"day": "Friday",
+					"time": "16:00",
+					"person_count": 2
+				},
+				{
+					"day": "Friday",
+					"time": "17:00",
+					"person_count": 1
+				},
+				{
+					"day": "Friday",
+					"time": "18:00",
+					"person_count": 0
+				}
+			]
+		}
+	],
+	"users": [{
+			"id": 376625,
+			"name": "Gio Peralta",
+			"date_of_birth": null,
+			"employment_start_date": "2017-07-28",
+			"employee_id": "2",
+			"passcode": "9263",
+			"user_levels": [
+				"employee"
+			],
+			"department_ids": [],
+			"preferred_hours": 0,
+			"award_template_id": null,
+			"award_tag_ids": [],
+			"report_department_id": null,
+			"managed_department_ids": [],
+			"active": true,
+			"email": "gbperala1@up.edu.ph",
+			"photo": null,
+			"phone": "+639152533334",
+			"normalised_phone": "+639152533334",
+			"time_zone": "Asia/Shanghai",
+			"utc_offset": 28800,
+			"created_at": 1501249990,
+			"employment_basis": null,
+			"super_fund_membership": null,
+			"bank_details": null,
+			"tax_declaration": null,
+			"updated_at": 1501250118
+		},
+		{
+			"id": 376298,
+			"name": "Jan Charles Maghirang Adona",
+			"date_of_birth": null,
+			"employment_start_date": null,
+			"employee_id": "1",
+			"passcode": "1234",
+			"user_levels": [
+				"employee",
+				"organisation_admin"
+			],
+			"department_ids": [],
+			"preferred_hours": 0,
+			"award_template_id": null,
+			"award_tag_ids": [],
+			"report_department_id": null,
+			"managed_department_ids": [],
+			"active": true,
+			"email": "jancharles.adona@gmail.com",
+			"photo": null,
+			"phone": "+639054768718",
+			"normalised_phone": "+639054768718",
+			"time_zone": "Asia/Shanghai",
+			"utc_offset": 28800,
+			"created_at": 1501233063,
+			"employment_basis": null,
+			"super_fund_membership": null,
+			"bank_details": null,
+			"tax_declaration": null,
+			"updated_at": 1501233063
+		},
+		{
+			"id": 376653,
+			"name": "Kean Paderes",
+			"date_of_birth": null,
+			"employment_start_date": "2017-07-28",
+			"employee_id": "4",
+			"passcode": "9335",
+			"user_levels": [
+				"employee"
+			],
+			"department_ids": [],
+			"preferred_hours": 0,
+			"award_template_id": null,
+			"award_tag_ids": [],
+			"report_department_id": null,
+			"managed_department_ids": [],
+			"active": true,
+			"email": null,
+			"photo": null,
+			"phone": null,
+			"normalised_phone": null,
+			"time_zone": "Asia/Shanghai",
+			"utc_offset": 28800,
+			"created_at": 1501250899,
+			"employment_basis": null,
+			"super_fund_membership": null,
+			"bank_details": null,
+			"tax_declaration": null,
+			"updated_at": 1501250899
+		},
+		{
+			"id": 376629,
+			"name": "Rain Tomista",
+			"date_of_birth": null,
+			"employment_start_date": "2017-07-28",
+			"employee_id": "3",
+			"passcode": "7970",
+			"user_levels": [
+				"employee"
+			],
+			"department_ids": [],
+			"preferred_hours": 0,
+			"award_template_id": null,
+			"award_tag_ids": [],
+			"report_department_id": null,
+			"managed_department_ids": [],
+			"active": true,
+			"email": null,
+			"photo": null,
+			"phone": null,
+			"normalised_phone": null,
+			"time_zone": "Asia/Shanghai",
+			"utc_offset": 28800,
+			"created_at": 1501250684,
+			"employment_basis": null,
+			"super_fund_membership": null,
+			"bank_details": null,
+			"tax_declaration": null,
+			"updated_at": 1501250684
+		}
+	]
 }

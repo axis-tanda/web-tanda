@@ -371,7 +371,7 @@
 				{
 					"day": "Tuesday",
 					"time": "07:00",
-					"person_count": 6
+					"person_count": 5
 				},
 				{
 					"day": "Tuesday",
@@ -381,12 +381,12 @@
 				{
 					"day": "Tuesday",
 					"time": "09:00",
-					"person_count": 1
+					"person_count": 3
 				},
 				{
 					"day": "Tuesday",
 					"time": "10:00",
-					"person_count": 0
+					"person_count": 5
 				},
 				{
 					"day": "Tuesday",
@@ -396,37 +396,37 @@
 				{
 					"day": "Tuesday",
 					"time": "12:00",
-					"person_count": 2
+					"person_count": 1
 				},
 				{
 					"day": "Tuesday",
 					"time": "13:00",
-					"person_count": 1
-				},
-				{
-					"day": "Tuesday",
-					"time": "14:00",
-					"person_count": 0
-				},
-				{
-					"day": "Tuesday",
-					"time": "15:00",
 					"person_count": 6
 				},
 				{
 					"day": "Tuesday",
-					"time": "16:00",
-					"person_count": 2
+					"time": "14:00",
+					"person_count": 8
 				},
 				{
 					"day": "Tuesday",
-					"time": "17:00",
+					"time": "15:00",
 					"person_count": 1
 				},
 				{
 					"day": "Tuesday",
+					"time": "16:00",
+					"person_count": 8
+				},
+				{
+					"day": "Tuesday",
+					"time": "17:00",
+					"person_count": 9
+				},
+				{
+					"day": "Tuesday",
 					"time": "18:00",
-					"person_count": 0
+					"person_count": 10
 				},
 				{
 					"day": "Wednesday",
@@ -676,27 +676,27 @@
 				{
 					"day": "Tuesday",
 					"time": "07:00",
-					"person_count": 6
-				},
-				{
-					"day": "Tuesday",
-					"time": "08:00",
 					"person_count": 2
 				},
 				{
 					"day": "Tuesday",
+					"time": "08:00",
+					"person_count": 4
+				},
+				{
+					"day": "Tuesday",
 					"time": "09:00",
-					"person_count": 1
+					"person_count": 7
 				},
 				{
 					"day": "Tuesday",
 					"time": "10:00",
-					"person_count": 0
+					"person_count": 1
 				},
 				{
 					"day": "Tuesday",
 					"time": "11:00",
-					"person_count": 6
+					"person_count": 9
 				},
 				{
 					"day": "Tuesday",
@@ -706,37 +706,37 @@
 				{
 					"day": "Tuesday",
 					"time": "13:00",
-					"person_count": 1
+					"person_count": 7
 				},
 				{
 					"day": "Tuesday",
 					"time": "14:00",
-					"person_count": 0
+					"person_count": 9
 				},
 				{
 					"day": "Tuesday",
 					"time": "15:00",
-					"person_count": 6
-				},
-				{
-					"day": "Tuesday",
-					"time": "16:00",
-					"person_count": 2
-				},
-				{
-					"day": "Tuesday",
-					"time": "17:00",
 					"person_count": 1
 				},
 				{
 					"day": "Tuesday",
+					"time": "16:00",
+					"person_count": 3
+				},
+				{
+					"day": "Tuesday",
+					"time": "17:00",
+					"person_count": 4
+				},
+				{
+					"day": "Tuesday",
 					"time": "18:00",
-					"person_count": 0
+					"person_count": 5
 				},
 				{
 					"day": "Wednesday",
 					"time": "07:00",
-					"person_count": 6
+					"person_count": 8
 				},
 				{
 					"day": "Wednesday",
