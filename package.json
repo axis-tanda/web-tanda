@@ -17,7 +17,6 @@
     "build:doc": "run-p build:doc:*",
     "build:server": "npm run clean:server && babel src/ -d dist/ --source-maps --copy-files",
     "build": "run-p build:*",
-    "prestart:dev": "eslint src/",
     "start:dev": "node --require dotenv/config --require babel-register src/server.js",
     "dev": "nodemon --watch 'src/**/*.js' --exec npm run start:dev"
   },
