@@ -17,6 +17,7 @@
     "build": "run-p build:*",
     "start:dev": "node --require dotenv/config --require babel-register src/server.js",
     "dev": "nodemon --watch 'src/**/*.js' --exec npm run start:dev",
+    "prestart": "npm run build",
     "start": "node dist/server.js"
   },
   "repository": {
