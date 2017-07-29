@@ -23,6 +23,7 @@ export function set(req, res, next) {
     })
     .catch(function (err) {
       if (err) log(err);
+    });
 
   res.end();
 }
@@ -48,20 +49,20 @@ export function attend(req, res, next) {
   res.end();
 }
 
-export function check(req, res, next) {
-  // const { user_id, beacon_id, meeting_unix } = req.body
-  // Temporary
-  const meeting_unix = Date.now() / 1000;
-  Meeting
-    .findOne({'meeting_unix': meeting_unix}, 'meeting_id', (err, meeting) => {
-      if(err) {
-        log(err);
-      }
+// export function check(req, res, next) {
+//   // const { user_id, beacon_id, meeting_unix } = req.body
+//   // Temporary
+//   const meeting_unix = Date.now() / 1000;
+//   Meeting
+//     .findOne({'meeting_unix': meeting_unix}, 'meeting_id', (err, meeting) => {
+//       if(err) {
+//         log(err);
+//       }
 
-      meeting
-        ? res.send({check: true})
-        : res.send({check: false})
+//       meeting
+//         ? res.send({check: true})
+//         : res.send({check: false})
 
-    });
+//     });
 
-}
+// }
