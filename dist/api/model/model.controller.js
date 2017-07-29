@@ -4,6 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.train = train;
+exports.predict = predict;
 
 var _debug = require('debug');
 
@@ -24,7 +25,7 @@ var data = require(__dirname + '/../../data/dummy');
 function train(req, res, next) {
   log('Train!');
 
-  (0, _child_process.exec)('python ' + __dirname + '/model.py', function (err, stdout, stderr) {
+  (0, _child_process.exec)('python ' + __dirname + '/model.py', function callback(err, stdout, stderr) {
     if (err) {
       throw new Error(err);
     }
@@ -34,6 +35,24 @@ function train(req, res, next) {
 
     res.send({
       message: 'Successfully trained!'
+    });
+  });
+}
+
+function predict(req, res, next) {
+  log('Predict!');
+
+  (0, _child_process.exec)('python "' + __dirname + '\\model.py" ' + req.params.day, function callback(err, stdout, stderr) {
+    if (err) {
+      throw new Error(err);
+    }
+
+    var result = JSON.parse(stdout);
+
+    res.send({
+      message: 'Successfully predicted!',
+      accuracy: result[0],
+      prediction: result[1]
     });
   });
 }

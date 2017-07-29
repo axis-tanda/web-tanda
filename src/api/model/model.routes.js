@@ -8,6 +8,6 @@ router.use(body_parser.urlencoded({extended: false}));
 router.use(body_parser.json());
 
 router.get('/train', controller.train);
-router.get('/predict', controller.predict);
+router.get('/predict/:day', controller.predict);
 
 export default router;

@@ -25,7 +25,7 @@ export function train(req, res, next) {
 export function predict(req, res, next) {
   log('Predict!');
 
-  exec(`python ${__dirname}/model.py ${req.params.day}`, function callback(err, stdout, stderr) {
+  exec(`python "${__dirname}\\model.py" ${req.params.day}`, function callback(err, stdout, stderr) {
     if (err) {
       throw new Error(err);
     }

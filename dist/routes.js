@@ -18,6 +18,7 @@ var log = (0, _debug2.default)('app-routes');
 var clockinRoutes = require('./api/clockin/clockin.routes').default;
 var modelRoutes = require('./api/model/model.routes').default;
 var roomRoutes = require('./api/room/room.routes').default;
+var meetingRoutes = require('./api/meeting/meeting.routes').default;
 
 exports.default = function (app) {
   // logger
@@ -30,5 +31,6 @@ exports.default = function (app) {
   app.use('/api/tanda/clockin', clockinRoutes);
   app.use('/api/tanda/model', modelRoutes);
   app.use('/api/tanda/room', roomRoutes);
+  app.use('/api/tanda/meeting', meetingRoutes);
 };
 //# sourceMappingURL=routes.js.map

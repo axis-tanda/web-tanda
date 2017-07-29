@@ -7,21 +7,19 @@ const log = debug('meeting.controller');
 
 export function set(req, res, next) {
   log('Set Meeting!');
-  const { meeting_time, meeting_day, meeting_id, data } = req.body;
-  const meeting = new Meeting({
-    meeting_id,
-    meeting_day,
-    meeting_time,
-    data
+  const newMeeting = new Meeting({
+    meeting_id: req.body.meeting_id,
+    meeting_day: req.body.meeting_day,
+    meeting_time: req.body.meeting_time,
+    data: req.body.data
   });
 
-  meeting
-    .save()
-    .then(function(data) {
+  Meeting.create(newMeeting)
+    .then(function (data) {
       log(data);
     })
-    .catch(function(err) {
-      if(err) log(err);
+    .catch(function (err) {
+      if (err) log(err);
     });
 
   res.end();
