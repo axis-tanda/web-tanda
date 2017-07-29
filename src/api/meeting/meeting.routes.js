@@ -9,5 +9,6 @@ router.use(body_parser.json());
 
 router.post('/', controller.set);
 router.post('/attend', controller.attend);
+router.post('/check', controller.check);
 
 export default router;
