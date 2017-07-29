@@ -30,23 +30,24 @@ export function set(req, res, next) {
 
 export function attend(req, res, next) {
   log('Attend Meeting!');
-  const { meeting_id, user_id } = req.body;
-  Meeting
-    .findOne({'meeting_id': meeting_id}, 'meeting_id data', (err, meeting) => {
-      if(err) {
-        log(err);
-      }
+  const {
+    meeting_id,
+    user_id
+  } = req.body;
 
-      meeting.data
-        .push(user_id)
+  Meeting.findOne({meeting_id}, (err, meeting) => {
+    if (err) {
+      log(err);
+    }
+    meeting.data.push({user_id});
 
-      meeting
-        .save()
-        .then(data => log(data))
-        .catch(err => log(err))
+    meeting
+      .save()
+      .then(data => log(data))
+      .catch(err => log(err));
 
-    })
-  res.end();
+    res.end();
+  })
 }
 
 // export function check(req, res, next) {

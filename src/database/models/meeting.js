@@ -5,7 +5,7 @@ const meetingSchema = mongoose.Schema({
   meeting_id: { type: Number},
   meeting_time: { type: String},
   meeting_day: { type: String},
-  data: { type: [Object]},
+  data: { type: Array},
   room_id: { type: Schema.ObjectId, ref: 'Room', default: null },
 });
 
