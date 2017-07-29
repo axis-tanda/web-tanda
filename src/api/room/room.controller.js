@@ -2,14 +2,16 @@
 import debug from 'debug';
 import request from 'request';
 const log = debug('room.controller');
-const data = require(__dirname + '/../../data/dummy');
+const mongoose = require('mongoose');
+let Room = require('../../database/models/room');
+
 
 export function getAllRooms(req, res, next) {
-  log('Get All Rooms!');
-
-  // log(data);
-
-  res.status(200).send(data);
+  Room.find({}, function (err, result) {
+    if (!err) {
+      res.status(200).send(result)
+    } else {
+      res.status(500).send(err);
+    }
+  })
 }
-
-

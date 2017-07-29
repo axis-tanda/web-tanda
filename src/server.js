@@ -15,7 +15,7 @@ require('./routes').default(app);
 
 
 //Mongo Connect
-let mongoURI = 'mongodb://heroku_x0x8lgpx:pkhda7ei241c1etj37hvop43ju@ds013966.mlab.com:13966/heroku_x0x8lgpx';
+let mongoURI = 'mongodb://heroku_49v1vbqj:sm8vl3p2deertte9a7ea70f3uh@ds127883.mlab.com:27883/heroku_49v1vbqj';
 mongoose.connect(mongoURI, function (err) {
   if (err) {
     console.log(err);

@@ -7,7 +7,7 @@ const router = express.Router();
 router.use(body_parser.urlencoded({extended: false}));
 router.use(body_parser.json());
 
-router.post('/', controller.set);
+router.post('/set', controller.set);
 router.post('/attend', controller.attend);
 
 export default router;

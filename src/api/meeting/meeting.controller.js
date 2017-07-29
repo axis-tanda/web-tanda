@@ -11,7 +11,8 @@ export function set(req, res, next) {
     meeting_id: req.body.meeting_id,
     meeting_day: req.body.meeting_day,
     meeting_time: req.body.meeting_time,
-    data: req.body.data
+    data: req.body.data,
+    room_id: req.body.room_id
   });
 
   Meeting.create(newMeeting)

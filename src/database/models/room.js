@@ -6,4 +6,4 @@ const roomSchema = mongoose.Schema({
   data: { type: [Object]}
 });
 
-export default mongoose.model('Room', roomSchema);
+module.exports = mongoose.model('Room', roomSchema);
